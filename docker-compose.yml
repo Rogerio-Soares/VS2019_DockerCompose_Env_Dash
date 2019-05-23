@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  test.env_dash:
+    image: test/env_dash:linux-latest
+    build:
+      context: .
+      dockerfile: ConsoleApp1/Dockerfile

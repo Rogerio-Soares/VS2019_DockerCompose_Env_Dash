@@ -1,0 +1,10 @@
+version: '3.4'
+services:  
+  test.env_dash:
+    container_name: test.env_dash
+    hostname: test.env_dash
+    environment:
+      - foo-bar=exists
+      - foobar=exists
+    ports:
+      - "5900:80"
